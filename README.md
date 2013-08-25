@@ -2,7 +2,7 @@ SlideLeaf
 =========
 
 A jQuery plugin to create dynamic slideshows on SiteLeaf websites.
-Uses swipe.js.
+Uses [Swipe.js](https://github.com/bradbirdsall/Swipe).
 
 ##Installing
 ###On SiteLeaf
