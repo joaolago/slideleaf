@@ -1,0 +1,15 @@
+
+#swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+#swipe ul {
+  overflow: hidden;
+  position: relative;
+}
+#swipe ul > li {
+  float:left;
+  width:100%;
+  position: relative;
+}
