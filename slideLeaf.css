@@ -1,0 +1,47 @@
+/* required to make swipe work */
+#swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+#swipe ul {
+  overflow: hidden;
+  position: relative;
+}
+#swipe ul > li {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+/*****************************/
+
+#slideshow{
+  position: relative;
+}
+
+/*define a generic size for both nav buttons*/
+.gallery-nav{
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+/*define a generic style for the prev button*/
+#slideshow #prev{
+  background: red;
+  margin: 0 10px 0 0;
+}
+
+/*define a generic style for the next button*/
+#slideshow #next{
+  background: blue;
+}
+
+
+/*defining a position for the nav buttons*/
+#nav{
+  position: absolute;
+  top: -30px;
+  left: 0px;
+}
