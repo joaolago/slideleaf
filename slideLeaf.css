@@ -38,10 +38,35 @@
   background: blue;
 }
 
-
 /*defining a position for the nav buttons*/
 #nav{
   position: absolute;
   top: -30px;
-  left: 0px;
+  right: 0px;
+}
+
+/*defining styles for pagination*/
+#pages{
+  display: inline;
+}
+
+.gallery-nav{
+  cursor: pointer;
+}
+
+.nav-page-thumb{
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+
+.nav-page-thumb.selected{
+  background: #CCC;
+  color: #000;
 }
