@@ -6,8 +6,21 @@ Uses [Swipe.js](https://github.com/bradbirdsall/Swipe).
 
 ##Installing
 ###On SiteLeaf
-While editing your page o post, create a list and import your images into the post as items on that list.
-SiteLeaf will render them as a unordered list in which each list item has an image inside.
+While editing your page or post, create a list and import your images into the post as items on that list.
+    
+    + ![image 1](/assets/img1.png)
+    + ![image 2](/assets/img2.png)
+    + ![image 3](/assets/img3.png)
+    + ![image 4](/assets/img4.png)
+
+SiteLeaf will render them as an unordered list in which each item has an image inside:
+
+    <ul>
+        <li> <img src="/assets/img1.png" /> </li>
+        <li> <img src="/assets/img1.png" /> </li>
+        <li> <img src="/assets/img1.png" /> </li>
+        <li> <img src="/assets/img1.png" /> </li>
+    </ul>
 
 ###HTML/JS
 Import all files using script and style tags on the desired html file and add 
